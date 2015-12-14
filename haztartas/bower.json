@@ -1,0 +1,31 @@
+{
+  "name": "MagikBox",
+  "description": "it's magik...",
+  "main": "server.js",
+  "authors": [
+    "vamdev"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "magikbox"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "angular-aria": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-material": "~0.11.4"
+  }
+}

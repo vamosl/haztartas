@@ -1,0 +1,70 @@
+body{
+   font-family: 'Maven Pro', sans-serif;       
+  
+}
+
+
+.ps-mainToolbar{
+    min-height: 80px    ;
+    max-height: 80px;
+}
+
+.ps-logo{
+
+background-image: '';/* url('../img/PS_logo_small_72dpi_60mm.png');*/
+background-repeat: no-repeat;
+background-position: left;
+background-size:100%;
+width: 135px;
+height: 70px; 
+}
+
+
+
+
+.ps-font-color-white{
+    color:#fefefe !important;
+}
+
+.ps-font-color-blue{
+    color:#0064a9 !important;
+}
+
+
+.ps-font-weight-bold{
+    font-weight:bold;  
+}
+
+.ps-font-header{
+    font-size:20px  ;  
+}
+
+.ps-text-justify
+{
+    text-align: justify;
+ 
+}
+
+.ps-grey{
+background-color:#ebebeb !important;
+    
+}
+
+.ps-orange-dark{
+background-color:#f17e00 !important; 
+
+}
+
+.ps-orange-light{
+ background-color:#fbc000 !important;
+
+}
+    
+
+.ps-white{
+
+background-color:#fefefe !important;
+    
+    
+}
+
