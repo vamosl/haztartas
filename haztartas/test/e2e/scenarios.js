@@ -2,13 +2,25 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('PhoneCat App', function() {
+describe('App', function() {
 
-  it('should redirect index.html to index.html#/phones', function() {
-    browser.get('/');
-    browser.getLocationAbsUrl().then(function(url) {
-        expect(url).toEqual('/expense');
-      });
-  });
+    it('should navigate to #/expense', function () {
+        browser.get('/');
+        element(by.xpath('/html/body/section/md-sidenav/md-content/md-menu-content/md-menu-item[1]/a')).click()
+        .then(function () {
+            browser.getLocationAbsUrl().then(function (url) {
+                expect(url).toEqual('/expense');
+            });
+
+        })     
+    });
+
+    describe('Chips', function () {
+        it('should search brokkoli chips', function () {
+            var input = element(by.xpath('//*[@id="input-0"]'));
+            input.sendKeys('Broccoli')
+        });
+
+    });
 
 });
