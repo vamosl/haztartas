@@ -30,7 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="public\app.js" />
+    <Compile Include="public\app.main.js" />
     <Compile Include="public\app.route.js" />
     <Compile Include="public\app2.js" />
     <Compile Include="public\app\expense\expenseCtrl.js" />
@@ -211,7 +211,9 @@
     <Compile Include="server\app\expense\route-expense.js" />
     <Compile Include="server\app\index\route-index.js" />
     <Compile Include="server\app\index\route-index.js" />
+    <Compile Include="test\e2e\scenarios.js" />
     <Compile Include="test\karma.conf.js" />
+    <Compile Include="test\protractor-conf.js" />
     <Compile Include="test\unit\controllersSpec.js" />
     <Content Include="package.json" />
     <Content Include="public\app\expense\expense.html" />
@@ -745,6 +747,7 @@
     <Folder Include="server\app\index\" />
     <Folder Include="server\app\expense\" />
     <Folder Include="server\common\" />
+    <Folder Include="test\e2e\" />
     <Folder Include="test\unit\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

@@ -1,12 +1,9 @@
 (function (angular) {
     'use strict';
     //angular module  
-    var myApp = angular.module('app', 
-                               ['ngMaterial', 
-                                'ngRoute'
-                               ]);
+    var myApp = angular.module('app', []);
 
-    myApp.controller('mainCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
+    myApp.controller('mainCtrl', ['$scope', function ($scope) {
             
             $scope.currentModuleName = "";
             $scope.menuItems = [
